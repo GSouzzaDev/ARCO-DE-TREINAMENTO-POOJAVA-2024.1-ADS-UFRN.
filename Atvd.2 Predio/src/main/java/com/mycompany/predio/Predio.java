@@ -1,16 +1,40 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.predio;
-
-/**
- *
- * @author gusta
- */
 public class Predio {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Elevador l1= new Elevador(5, 5);
+        l1.Status();
+        l1.Entrar();
+        l1.Entrar();
+        l1.Entrar();
+        l1.Subir();
+        l1.Sair();
+        l1.Descer();
+        l1.Sair();
+        l1.Subir();
+        l1.Subir();
+        l1.Subir();
+        l1.Entrar();
+        l1.Entrar();
+        l1.Entrar();
+        l1.Entrar();
+        l1.Entrar();
+        l1.Subir();
+        l1.Subir();
+        l1.Subir();
+        l1.Status();
+        l1.Sair();
+        l1.Sair();
+        l1.Sair();
+        l1.Sair();
+        l1.Sair();
+        l1.Sair();
+        l1.Descer();
+        l1.Descer();
+        l1.Descer();
+        l1.Descer();
+        l1.Descer();
+        l1.Descer();
+        l1.Status();
+        
     }
 }
