@@ -13,7 +13,7 @@ public class Caneta {
     }
     
 /*--------------Geter's e Sete's----------------*/
-    private String getModelo() {
+    public String getModelo() {
         return modelo;
     }
 
@@ -21,7 +21,7 @@ public class Caneta {
         this.modelo = modelo;
     }
 
-    private String getCor() {
+    public String getCor() {
         return cor;
     }
 
@@ -29,7 +29,7 @@ public class Caneta {
         this.cor = cor;
     }
 
-    private float getPonta() {
+    public float getPonta() {
         return ponta;
     }
 
@@ -37,7 +37,7 @@ public class Caneta {
         this.ponta = ponta;
     }
 
-    private int getCarga() {
+    public int getCarga() {
         return carga;
     }
 
@@ -45,26 +45,26 @@ public class Caneta {
         this.carga = carga;
     }
 
-    private boolean getTampada() {
+    public boolean isTampada() {
         return tampada;
     }
 
-    private void setTampada(boolean tampada) {
+    public void setTampada(boolean tampada) {
         this.tampada = tampada;
     }
     
     /*---------------------------------------------------*/
     
     public void status(){
-        System.out.print("Uma caneta "+ this.getCor());
-        System.out.print("Esta tampada? "+ this.getTampada());
-        System.out.print("Ponta: " +this.getPonta());
-        System.out.print("Modelo: " +this.getModelo());
-        System.out.print("Carga: " +this.getCarga());
+        System.out.print("Uma caneta "+ cor);
+        System.out.print("Esta tampada? "+ tampada);
+        System.out.print("Ponta: " + ponta);
+        System.out.print("Modelo: " + modelo);
+        System.out.print("Carga: " + carga);
     }
     
     public void Escrever(){
-        if(this.getTampada()==false && this.getCarga()>0){
+        if(tampada==false && carga>0){
             System.out.print("Ola");
         } else{
             System.out.print("ERRO: Verifique se sua caneta esta destamapada ou tem carga");
@@ -72,7 +72,7 @@ public class Caneta {
     }
     
     public void Tampar(){
-        if(this.getTampada()==false){
+        if(tampada==false){
             this.setTampada(true);
         }else{
             System.out.print("Sua caneta ja esta tampada");
@@ -80,14 +80,10 @@ public class Caneta {
     }
     
     public void Destampar(){
-        if(this.getTampada()==true){
+        if(tampada==true){
             this.setTampada(false);
         }else{
             System.out.print("Sua caneta ja esta destampada");
         }
-    }
-    
-    public void isTampada(){
-        System.out.print(this.getTampada());
     }
 }

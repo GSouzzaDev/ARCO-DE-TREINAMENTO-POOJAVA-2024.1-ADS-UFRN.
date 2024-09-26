@@ -11,10 +11,10 @@ public class Elevador {
     }
 /*-------------------------Moduols-------------------------*/   
     public void Status(){
-        System.out.println("Total de andares: "+this.getTotal_andares());
-        System.out.println("Andar atual: "+this.getAndar_atual());
-        System.out.println("Capacidade do elevador: "+this.getCapacidade_elevador());
-        System.out.println("Total de pessoas no elevador: "+this.getQtd_elevador());
+        System.out.println("Total de andares: " + this.getTotal_andares());
+        System.out.println("Andar atual: " + this.getAndar_atual());
+        System.out.println("Capacidade do elevador: " + this.getCapacidade_elevador());
+        System.out.println("Total de pessoas no elevador: " + this.getQtd_elevador());
     }
     
     public void Entrar(){
