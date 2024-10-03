@@ -6,6 +6,22 @@ public class App {
         ArrayList<Aluno> alunos = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         int opc;
+
+        Aluno a1 = new Aluno();
+        a1.setNome("Alice");
+        a1.setMatricula(101);
+        alunos.add(a1);
+
+        Aluno a2 = new Aluno();
+        a2.setNome("Bob");
+        a2.setMatricula(102);
+        alunos.add(a2);
+
+        Aluno a3 = new Aluno();
+        a3.setNome("Carlos");
+        a3.setMatricula(103);
+        alunos.add(a3);
+        
         do{
             System.out.println("-----------");
             System.err.println("Menu");
