@@ -10,7 +10,9 @@ public class App {
         
         project1.addProject(allocation1);
 
-        project1.toString();
+        project1.removeProject(allocation1);
+        employee1.removeEmployee(allocation1);
+        employee1.removeTel(tel1);
         
     }
 
