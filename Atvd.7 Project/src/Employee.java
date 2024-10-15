@@ -15,7 +15,7 @@ public class Employee {
     public void addEmployee(Allocation allocation){
         listAllocation.add(allocation);
     }
-    public void removeProject(Allocation allocation){
+    public void removeEmployee(Allocation allocation){
         listAllocation.remove(allocation);
     }
 
@@ -48,6 +48,14 @@ public class Employee {
 
     public ArrayList<Tel> getTelList() {
         return telList;
+    }
+
+    public void setListAllocation(ArrayList<Allocation> listAllocation) {
+        this.listAllocation = listAllocation;
+    }
+
+    public void setTelList(ArrayList<Tel> telList) {
+        this.telList = telList;
     }
 
     @Override
