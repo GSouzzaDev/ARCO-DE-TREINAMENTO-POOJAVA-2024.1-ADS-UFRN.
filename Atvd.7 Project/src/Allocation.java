@@ -24,5 +24,13 @@ public class Allocation{
     public void setHour(int hour) {
         this.hour = hour;
     }
+
+    public void setProject(project project) {
+        this.project = project;
+    }
+
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
+    }
     
 }
