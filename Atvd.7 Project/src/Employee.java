@@ -57,12 +57,6 @@ public class Employee {
     public void setTelList(ArrayList<Tel> telList) {
         this.telList = telList;
     }
-
-    @Override
-    public String toString() {
-        return "Employee [name=" + name + ", salary=" + salary + ", listAllocation=" + listAllocation + ", telList="
-                + telList + "]";
-    }
-
+     
     
 }

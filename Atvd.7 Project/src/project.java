@@ -44,10 +44,5 @@ public class project{
         this.listAllocation = listAllocation;
     }
 
-    @Override
-    public String toString() {
-        return "project [name=" + name + ", value=" + value + ", listAllocation=" + listAllocation + ", getName()="
-                + getName() + ", getValue()=" + getValue() + ", getListAllocation()=" + getListAllocation() + "]";
-    }
     
 }
